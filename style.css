@@ -9,8 +9,8 @@ body{
 }
 
 .heart{
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
     background: #f20044;
     position: relative;
     transform: rotate(-45deg);
@@ -21,22 +21,22 @@ body{
 .heart:before{
     content: "";
     position: absolute;
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
     background: #f20044;
     top: -50%;
-    border-radius: 100px;
+    border-radius: 250px;
     box-shadow: -10px 10px 90px #f20044;
 }
 
 .heart:after{
     content: "";
     position: absolute;
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
     background: #f20044;
     right: -50%;
-    border-radius: 100px;
+    border-radius: 250px;
     box-shadow: -10px 10px 90px #f20044;
 }
 
