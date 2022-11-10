@@ -8,17 +8,17 @@ body{
     background: #0b1522;
 }
 
-.heart{
+.my_heart{
     height: 250px;
     width: 250px;
     background: #f20044;
     position: relative;
     transform: rotate(-45deg);
     box-shadow: -20px 20px 100px #f20044;
-    animation: heart 0.5s linear infinite;
+    animation: heart_beat 0.5s linear infinite;
 }
 
-.heart:before{
+.my_heart:before{
     content: "";
     position: absolute;
     height: 250px;
@@ -29,7 +29,7 @@ body{
     box-shadow: -10px 10px 90px #f20044;
 }
 
-.heart:after{
+.my_heart:after{
     content: "";
     position: absolute;
     height: 250px;
@@ -40,7 +40,7 @@ body{
     box-shadow: -10px 10px 90px #f20044;
 }
 
-@keyframes heart {
+@keyframes heart_beat {
     0%{
         transform: rotate(-45deg) scale(1.1);
     }
